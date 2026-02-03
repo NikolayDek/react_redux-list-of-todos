@@ -99,7 +99,9 @@ export const TodoList = () => {
                   <i
                     className={cn(
                       'far',
-                      currentTodo ? 'fa-eye-slash' : 'fa-eye',
+                      currentTodo?.id === todo.id
+                        ? 'fa-eye-slash'
+                        : 'fa-eye',
                     )}
                   />
                 </span>
