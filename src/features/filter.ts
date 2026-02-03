@@ -21,8 +21,6 @@ export const filterSlice = createSlice({
     resetQuery(state) {
       // eslint-disable-next-line no-param-reassign
       state.query = '';
-      // eslint-disable-next-line no-param-reassign
-      state.status = 'all';
     },
   },
 });
